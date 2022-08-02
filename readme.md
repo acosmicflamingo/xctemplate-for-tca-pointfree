@@ -16,8 +16,8 @@
 ## How to install
 
 ```sh
-❯ git clone git@github.com:riiid/xctemplate-for-tca.git
-❯ cd xctemplate-for-tca
+❯ git clone git@github.com:acosmicflamingo/xctemplate-for-tca-pointfree.git
+❯ cd xctemplate-for-tca-pointfree
 ❯ make
 ```
 
@@ -28,7 +28,7 @@
 ![image](https://user-images.githubusercontent.com/1744446/106472348-ee1b7f80-64e5-11eb-8ab1-717b9e386e4b.png)
 
 2. <kbd>Command ⌘</kbd> + <kbd>N</kbd> <sub>or `File ❯ New ❯ File...`</sub> in the group
-3. Select `Swift files for TCA`
+3. Select `Swift Files (TCA`)
 4. <kbd>Next</kbd>
 
 ![image](https://user-images.githubusercontent.com/1744446/106472373-f4a9f700-64e5-11eb-80cf-6263fb794af2.png)
