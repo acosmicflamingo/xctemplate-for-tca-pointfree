@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/1744446/106479190-62a5ec80-64ed-11eb-8446-07d2a782af37.png" width=256/>
+  <img src="https://raw.githubusercontent.com/acosmicflamingo/xctemplate-for-tca-pointfree/main/Images/TemplateIcon.png" width=256/>
 </p>
 
 # XCTemplate for [TCA]
@@ -7,11 +7,13 @@
 > Generates [TCA] components using XCTemplate
 
 * Components
-  * Action
-  * Environment
-  * Reducer
-  * State
-  * View(with Store)
+  * Feature
+    * FooFeature.swift
+      * Comprises all TCA logic (State, Action, Environment, Reducer)
+    * FooView.swift
+      * Comprises all view logic (View, View Preview)
+  * Test
+    * FooViewTest.swift
 
 ## How to install
 
@@ -23,28 +25,23 @@
 
 ## Usage
 
-1. Create a new group
+1. <kbd>Command ⌘</kbd> + <kbd>N</kbd> <sub>or `File ❯ New ❯ File...`</sub>
+2. Select `Swift Files (TCA`)
+3. <kbd>Next</kbd>
 
-![image](https://user-images.githubusercontent.com/1744446/106472348-ee1b7f80-64e5-11eb-8ab1-717b9e386e4b.png)
+![image](https://raw.githubusercontent.com/acosmicflamingo/xctemplate-for-tca-pointfree/main/Images/PastedGraphic-9.png)
 
-2. <kbd>Command ⌘</kbd> + <kbd>N</kbd> <sub>or `File ❯ New ❯ File...`</sub> in the group
-3. Select `Swift Files (TCA`)
-4. <kbd>Next</kbd>
+4. Set the feature name that you want
+5. <kbd>Next</kbd>
 
-![image](https://user-images.githubusercontent.com/1744446/106472373-f4a9f700-64e5-11eb-80cf-6263fb794af2.png)
+![image](https://raw.githubusercontent.com/acosmicflamingo/xctemplate-for-tca-pointfree/main/Images/PastedGraphic-10.png)
 
-5. Set a core<sub>module</sub> name that you want
-6. <kbd>Next</kbd>
+6. :tada: Your turn from here!
 
-![image](https://user-images.githubusercontent.com/1744446/106472392-f96eab00-64e5-11eb-9a5f-1b81f0bd5737.png)
-
-7. <kbd>Create</kbd> files in the group
-
-![image](https://user-images.githubusercontent.com/1744446/106472410-fd9ac880-64e5-11eb-8a2c-9f22ab66a5da.png)
-
-8. :tada: Your turn from here!
-
-![image](https://user-images.githubusercontent.com/1744446/106477357-6b95be80-64eb-11eb-9e23-1c6ab7802767.png)
+![image](https://raw.githubusercontent.com/acosmicflamingo/xctemplate-for-tca-pointfree/main/Images/PastedGraphic-11.png)
+![image](https://raw.githubusercontent.com/acosmicflamingo/xctemplate-for-tca-pointfree/main/Images/PastedGraphic-12.png)
+![image](https://raw.githubusercontent.com/acosmicflamingo/xctemplate-for-tca-pointfree/main/Images/PastedGraphic-13.png)
+![image](https://raw.githubusercontent.com/acosmicflamingo/xctemplate-for-tca-pointfree/main/Images/PastedGraphic-17.png)
 
 
 [TCA]: https://github.com/pointfreeco/swift-composable-architecture
